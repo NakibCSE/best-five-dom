@@ -1,5 +1,4 @@
 // function for adding player
-
 function addPlayer(playerName) {
     const nodeList = document.querySelectorAll("ol li");
     const nodeLength = nodeList.length;
