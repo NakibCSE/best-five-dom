@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.carousel-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.63);
+}
+
+.carousel-caption {
+    transform: translateY(-50%);
+}
+
+.card img {
+    height: 250px;
+}
+
+.player-list {
+    border: 3px solid white;
+
+}
+
+.budget-list {
+    border: 3px solid whitesmoke;
+}
