@@ -179,7 +179,46 @@
                     <!-- player section end here -->
 
                     <!-- expenses calculation start here  -->
-                    
+                    <div class="col-lg-3 mt-3">
+                        <div>
+                            <div class="player-list mb-5">
+                                <h3 class="text-light text-center">Selected Five</h3>
+                                <div>
+                                    <ol id="select-five" class="text-light select-five">
+
+                                    </ol>
+                                </div>
+                            </div>
+                            <div class="budget-list p-2">
+                                <h3 class="text-center text-light">Budget</h3>
+                                <div class="input-group input-group-sm mb-3">
+                                    <span class="input-group-text font-weight-bold" id="inputGroup-sizing-sm">Per
+                                        Player</span>
+                                    <input id="perplayer-ammount" type="text" class="form-control"
+                                        aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                </div>
+                                <button id="budget-calculate"
+                                    class="btn btn-primary w-100 text-light mb-3 font-weight-bold">Calculate</button>
+                                <h5 class="text-light">Player Expenses: $<span id="player-expenses"> 00</span> </h5>
+                                <div class="input-group input-group-sm mb-3">
+                                    <span class="input-group-text font-weight-bold" id="inputGroup-sizing-sm">
+                                        Manager</span>
+                                    <input id="manager-input" type="text" class="form-control"
+                                        aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                </div>
+                                <div class="input-group input-group-sm mb-3">
+                                    <span class="input-group-text font-weight-bold"
+                                        id="inputGroup-sizing-sm">Coach</span>
+                                    <input id="coach-input" type="text" class="form-control"
+                                        aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                </div>
+                                <button id="calculate-total"
+                                    class="btn btn-primary w-100 text-light mb-3 font-weight-bold">Calculate
+                                    Total</button>
+                                <h4 class="text-light">Total: $ <span id="total-final"> 00</span> </h4>
+                            </div>
+                        </div>
+                    </div>
                     <!-- expenses calculation end here  -->
                 </div>
             </div>
